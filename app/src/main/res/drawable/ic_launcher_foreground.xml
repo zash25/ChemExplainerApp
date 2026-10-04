@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Central Flask body outline and liquid -->
+    <!-- Liquid inside flask -->
+    <path
+        android:pathData="M 40,65 L 68,65 L 75,76 C 76,78 74.5,80 72,80 L 36,80 C 33.5,80 32,78 33,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36"
+                android:startY="65"
+                android:endX="72"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#06B6D4" />
+                <item android:offset="1.0" android:color="#3B82F6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bubbles in liquid -->
+    <path
+        android:fillColor="#E0F2FE"
+        android:pathData="M 46,73 A 2.2,2.2 0 1,0 46,68.6 A 2.2,2.2 0 1,0 46,73 Z" />
+    <path
+        android:fillColor="#BAE6FD"
+        android:pathData="M 58,75 A 1.8,1.8 0 1,0 58,71.4 A 1.8,1.8 0 1,0 58,75 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 52,69 A 1.5,1.5 0 1,0 52,66 A 1.5,1.5 0 1,0 52,69 Z" />
+
+    <!-- Flask Neck and Lip -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 49,36 L 59,36 M 50,36 L 50,47 L 33,76 C 31.8,78 33,80.5 35.5,80.5 L 72.5,80.5 C 75,80.5 76.2,78 75,76 L 58,47 L 58,36" />
+
+    <!-- Tilted Atomic Orbitals revolving around the top of flask -->
+    <!-- Ellipse 1 (tilted 35 deg) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="42"
+        android:rotation="35">
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="2"
+            android:pathData="M 54,28 C 66,28 75,34 75,42 C 75,50 66,56 54,56 C 42,56 33,50 33,42 C 33,34 42,28 54,28 Z" />
+        <!-- Electron on orbit 1 -->
+        <path
+            android:fillColor="#FBBF24"
+            android:pathData="M 75,42 A 2.5,2.5 0 1,0 75,37 A 2.5,2.5 0 1,0 75,42 Z" />
+    </group>
+
+    <!-- Ellipse 2 (tilted -35 deg) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="42"
+        android:rotation="-35">
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#818CF8"
+            android:strokeWidth="2"
+            android:pathData="M 54,28 C 66,28 75,34 75,42 C 75,50 66,56 54,56 C 42,56 33,50 33,42 C 33,34 42,28 54,28 Z" />
+        <!-- Electron on orbit 2 -->
+        <path
+            android:fillColor="#34D399"
+            android:pathData="M 33,42 A 2.5,2.5 0 1,0 33,37 A 2.5,2.5 0 1,0 33,42 Z" />
+    </group>
+
+    <!-- Glowing Atomic Nucleus at (54, 42) -->
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M 54,44.5 A 3.2,3.2 0 1,0 54,38.1 A 3.2,3.2 0 1,0 54,44.5 Z" />
+
+    <!-- Molecular spark stars -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M 78,30 L 79.2,33.5 L 82.5,34.7 L 79.2,35.9 L 78,39.4 L 76.8,35.9 L 73.5,34.7 L 76.8,33.5 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 28,52 L 29,54.5 L 31.5,55.5 L 29,56.5 L 28,59 L 27,56.5 L 24.5,55.5 L 27,54.5 Z" />
+</vector>

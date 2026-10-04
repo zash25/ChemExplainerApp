@@ -1,0 +1,6 @@
+{
+  "name": "ChemMaster AI",
+  "description": "Comprehensive chemistry study companion with RAG-grounded reaction explanation, interactive 3D molecular visualizations, practice quiz generator, and mastery tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
